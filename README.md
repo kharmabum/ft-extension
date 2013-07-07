@@ -10,6 +10,7 @@ My chrome extension template.
 - Most general composition with accompanying manifest file
 - Example icons, keyboard shortcut, action button
 - Probably other cool stuff
+- How-to [install](https://developer.chrome.com/extensions/getstarted.html#unpacked)
 
 ## Screenshot
 
