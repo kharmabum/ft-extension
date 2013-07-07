@@ -1,7 +1,7 @@
 ft-extension
 ============
 
-My chrome extension template.
+My chrome extension template. How-to [install](https://developer.chrome.com/extensions/getstarted.html#unpacked).
 
 ## Features
 
@@ -10,7 +10,6 @@ My chrome extension template.
 - Most general composition with accompanying manifest file
 - Example icons, keyboard shortcut, action button
 - Probably other cool stuff
-- How-to [install](https://developer.chrome.com/extensions/getstarted.html#unpacked)
 
 ## Screenshot
 
