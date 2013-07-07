@@ -1,0 +1,47 @@
+ {
+  "name": "ft-ext",
+  "manifest_version": 2,
+  "description": "FT Chrome Extension Template",
+  "version": "0.0.1",
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "background": {
+    "persistent": false,
+    "page": "background.html"
+  },  
+  "commands": {
+    "toggle-ft-ext": {
+      "suggested_key": { "default": "Ctrl+Shift+Y" },
+      "description": "Toggle overlay"
+    }
+  },
+  "browser_action": {
+    "default_title": "Open ft-ext",
+    "default_icon": {            
+      "19"  : "img/icon_19.png",
+      "38"  : "img/icon_38.png"
+    }
+  },
+  "icons": {
+    "16"  : "img/icon_16.png",
+    "48"  : "img/icon_48.png",
+    "128" : "img/icon_128.png"
+  },
+  "web_accessible_resources": [
+    "ft-ext.html",
+    "css/bootstrap.min.css",
+    "css/ft-ext.css",
+    "css/ft-ext-shell.css",
+    "js/jquery-1.9.1.min.js",
+    "js/bootstrap.min.js",
+    "js/ft-ext-internal.js",
+    "js/ft-ext-injection.js",
+    "img/twinkle_twinkle_bg.png",
+    "img/icon_48.png",
+    "img/glyphicons-halflings.png",
+    "img/glyphicons-halflings-white.png"
+  ]
+}
