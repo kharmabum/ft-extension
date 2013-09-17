@@ -33,7 +33,7 @@ body {
    height: 100%;
    width: 400px;
    z-index: 4999;
-   padding: 0 20px 20px 20px;
+   padding: 0 20px 0 20px;
 }
 
 .ft-ext-container ::-webkit-scrollbar {
@@ -47,7 +47,7 @@ body {
    height: 100%;
    width: 400px;
    z-index: 5000;
-   padding: 0 20px 20px 20px;
+   padding: 0 20px 0 20px;
    text-align: left;
    font-family: 'Raleway', Arial, serif; font-weight: 300;
    color: white;
