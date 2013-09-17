@@ -4,17 +4,22 @@
   "description": "FT Chrome Extension Template",
   "version": "0.0.1",
   "permissions": [
-    "http://*/*",
-    "https://*/*"
+    "tabs",
+    "unlimitedStorage",
+    "http://*/",
+    "https://*/"
   ],
-  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "content_security_policy": "script-src 'self'; object-src 'self'",
   "background": {
     "persistent": false,
     "page": "background.html"
   },
   "commands": {
     "toggle-ft-ext": {
-      "suggested_key": { "default": "Ctrl+Y" },
+      "suggested_key": {
+        "default": "Ctrl+Shift+K",
+        "mac": "Command+Shift+K"
+      },
       "description": "Toggle overlay"
     }
   },
