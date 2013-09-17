@@ -11,16 +11,16 @@
   "background": {
     "persistent": false,
     "page": "background.html"
-  },  
+  },
   "commands": {
     "toggle-ft-ext": {
-      "suggested_key": { "default": "Ctrl+Shift+Y" },
+      "suggested_key": { "default": "Ctrl+Y" },
       "description": "Toggle overlay"
     }
   },
   "browser_action": {
     "default_title": "Open ft-ext",
-    "default_icon": {            
+    "default_icon": {
       "19"  : "img/icon_19.png",
       "38"  : "img/icon_38.png"
     }

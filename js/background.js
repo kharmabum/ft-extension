@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-var toggle = function () {
+function toggle() {
   chrome.tabs.executeScript(null, {file: "js/jquery-1.9.1.min.js"});
   chrome.tabs.executeScript(null, {file: "js/ft-ext-injection.js"});
   chrome.tabs.insertCSS(null, {file: "css/ft-ext-shell.css"});
-};
+}
 
 chrome.commands.onCommand.addListener(function(command) {
   toggle();
