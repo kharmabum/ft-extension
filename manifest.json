@@ -41,7 +41,9 @@
     "js/ft-ext-injection.js",
     "img/twinkle_twinkle_bg.png",
     "img/icon_48.png",
-    "img/glyphicons-halflings.png",
-    "img/glyphicons-halflings-white.png"
+    "fonts/glyphicons-halflings-regular.eot",
+    "fonts/glyphicons-halflings-regular.svg",
+    "fonts/glyphicons-halflings-regular.ttf",
+    "fonts/glyphicons-halflings-regular.woff"
   ]
 }
