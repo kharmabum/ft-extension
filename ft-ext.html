@@ -1,53 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="/js/jquery-1.9.1.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/ft-ext-internal.js"></script>
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/ft-ext.css">
-  </head>
+    <head>
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/bootstrap.js"></script>
+        <script src="js/ft-ext-internal.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/ft-ext.css">
+    </head>
     <body>
         <div class="ft-ext-background"></div>
         <div class="ft-ext-container">
             <div class="ft-ext-content">
-                <h1 class="ft-ext-show-name">FT.Extension</h1>
-                <h3 class="ft-ext-episode-title">epic subtitle</h3>
-                <hr>
-                <ul class="ft-ext-items list-unstyled">
-                    <li>
-                        <div class="row ft-ext-text-container">
-                            <textarea class="form-control ft-ext-text" rows="5" placeholder="Type here." autofocus="autofocus"></textarea>
-                        </div>
-                    </li>
-                    <li>
-                       <div class="ft-ext-item">
-                          <div class="ft-ext-image-container">
-                              <div class="ft-ext-image"></div><br>
-                              <div class="ft-ext-icon-row">
-                                  <a href="#" rel="tooltip" data-placement="bottom" title="1:09"><i class="glyphicon glyphicon-film icon-white"></i></a>
-                                  <a href="#" rel="tooltip" data-placement="bottom" title="Save"><i class="glyphicon glyphicon-heart icon-white"></i></a>
-                                  <a href="#" rel="tooltip" data-placement="bottom" title="Share"><i class="glyphicon glyphicon-share icon-white"></i></a>
-                                  <a href="#" rel="tooltip" data-placement="bottom" title="Buy"><i class="glyphicon glyphicon-shopping-cart icon-white"></i></a>
-                                  <a href="#" rel="tooltip" data-placement="bottom" title="See More"><i class="glyphicon glyphicon-th-large icon-white"></i></a>
-                              </div>
-                          </div>
-                          <div class="ft-ext-item-info">
-                              <div class="ft-ext-item-name"><h4>Herp derp</h4></div>
-                              <div class="ft-ext-item-character"><small>Derped by</small></div>
-                              <div class="ft-ext-item-character lead">Herp van Derpington</div>
-                              <div> <h5> Last derped at: 1:09 </h5> </div>
-                          </div>
-                        </div>
-                    </li>
-                   <div class="ft-ext-loader">
-                       <span></span>
-                       <span></span>
-                       <span></span>
-                    </div>
-               </ul>
+                <h1 class="ft-ext-name">ft-ext</h1>
+                <input class="ft-ext-text form-control" id="id_title" type="text" name="title" maxlength="512" placeholder="title" value="" />
+                <div class="ft-ext-tags-container">
+                    <textarea id="id_tags" class=" form-control ft-ext-text ft-ext-tags" rows="1" placeholder="#tags #go #here" autofocus="autofocus"></textarea>
+                </div>
+                <div>
+                    <textarea id="id_notes" class="form-control ft-ext-text" rows="8" name="notes" placeholder="And notes go here..."></textarea>
+                </div>
+
+                <div class="ft-ext-bottom">
+                </div>
             </div>
         </div>
     </body>

@@ -1,7 +1,8 @@
  {
-  "name": "ft-ext",
+  "name": "FT Extension Template",
   "manifest_version": 2,
-  "description": "FT Chrome Extension Template",
+  "description": "extensino template",
+  "homepage_url": "https://www.fototropik.com",
   "version": "0.0.1",
   "permissions": [
     "tabs",
@@ -12,9 +13,11 @@
       {
         "matches": ["<all_urls>"],
         "css": ["css/ft-ext-shell.css"],
-        "js": ["js/jquery-1.9.1.min.js", "js/ft-ext-injection.js"]
+        "js": ["js/vendor/jquery.js", "js/ft-ext-injection.js"],
+        "run_at" : "document_start"
       }
     ],
+
   "content_security_policy": "script-src 'self'; object-src 'self'",
   "background": {
     "persistent": false,
@@ -46,8 +49,8 @@
     "css/bootstrap.min.css",
     "css/ft-ext.css",
     "css/ft-ext-shell.css",
-    "js/jquery-1.9.1.min.js",
-    "js/bootstrap.min.js",
+    "js/vendor/jquery.js",
+    "js/vendor/bootstrap.js",
     "js/ft-ext-internal.js",
     "js/ft-ext-injection.js",
     "img/twinkle_twinkle_bg.png",
